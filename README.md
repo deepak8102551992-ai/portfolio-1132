@@ -1,65 +1,64 @@
-D1 — Project title and one-line description
+Personal Portfolio —Gulshan kumar
+A personal portfolio website showcasing my background as a Computer Science Engineering student at JECRC University, Jaipur, Rajasthan, India. It highlights my technical skills, programming projects, and interest in software development.
 
-# Personal Portfolio
-A responsive portfolio website showcasing my profile, skills, projects and professional links.
+Live Website: View My Portfolio
 
-D2 — Live URL
-## Live Portfolio
+Features
+Personal Introduction: Learn about my background, interests, and career goals.
+Technical Skills: Highlights my skills in Python, C/C++, HTML, CSS, and Node.js.
+Project Showcase: Displays programming assignments and web applications with links to their GitHub repositories.
+Project Search: Search and filter projects by title, description, or technology.
+Weather Search: Retrieve current weather information for a city using the OpenWeatherMap API.
+AI Chat Assistant: Includes a chat interface for questions about the portfolio and its projects, intended for local classroom demonstrations.
+Dark Mode: Switch between light and dark themes.
+Responsive Design: Adapts the layout to different screen sizes.
+Contact Section: Provides links to connect with me.
+Technologies Used
+HTML5 — Website structure and content
+CSS3 — Styling, responsive layouts, and dark mode
+JavaScript — Interactive features, project filtering, and weather functionality
+OpenWeatherMap API — Weather data
+Google Fonts — Syne and Figtree typography
+Vercel — Website deployment
+Project Structure
+portfolio/
+├── index.html       # Main portfolio page
+├── style.css        # Main styles and responsive design
+├── chatbot.css      # AI chat interface styling
+├── script.js        # Theme toggle, weather, and project search
+├── chatbot.js       # AI chat functionality, if included
+├── images/          # Profile image and other assets
+└── README.md        # Project documentation
+Getting Started
+Prerequisites
+A modern web browser
+A code editor, such as Visual Studio Code
+An internet connection for external fonts and weather data
+Run Locally
+Clone the repository:
 
-https://your-name.vercel.app
-Keep it near the top.
+git clone https://github.com/deepak8102551992-ai/Python-basic-1132/edit/main/README.md
+Open the project folder:
 
-D3 — At least two screenshots
+cd portfolio
+Open index.html in your browser, or use the Live Server extension in Visual Studio Code.
 
-For a portfolio, use:
-* Screenshot 1: Hero/About section
-* Screenshot 2: Skills + Projects section
-The guide asks for screenshots of the actual working project. 
+Note: Replace the repository URL above with your actual GitHub repository URL if its name differs from portfolio.
 
-D4 — Tech stack
-Example:
-## Tech Stack
-
-- HTML
-- CSS
-- JavaScript
-- Git
-- GitHub
-- Vercel
-Only list JavaScript if it is actually used.
-
-D5 — Three things the portfolio does
-For example:
-## Features
-
-- Introduces my profile and background
-- Displays my skills and projects
-- Provides direct links to my GitHub and professional profiles
-
-D6 — How to run locally
-## Run Locally
-
-1. Clone the repository.
-2. Open the project folder.
-3. Open `index.html` in a browser.
-
-D7 — Honest limitations
-For a personal portfolio, good limitations could be:
-## Current Limitations
-
-- The portfolio is a static website.
-- Project information must be updated manually.
-- It does not currently include a backend or contact form submission service.
-
-D8 — Audit every claim
-If README says:
-Responsive design
-students should actually check it on mobile.
-
-If README says:
-Dark mode
-the dark-mode button should work.
-
-If README says:
-Three projects
-those three projects should actually be present.
+Featured Projects
+Project	Description	Technologies
+C++ to Python Program Conversion	Programming exercises covering factorials, Fibonacci series, and structure-to-dictionary conversion.	C++, Python
+Python Debugging and Testing	Debugging Python code and verifying corrected behavior with tests.	Python
+Python Code Refactoring	Refactoring code to improve readability while preserving intended behavior.	Python, Cursor AI
+Quiz App	Interactive quiz application.	HTML, CSS, JavaScript
+Reading Book App	Web application for recording books read and tracking reading progress.	HTML, CSS, JavaScript
+Goals
+Strengthen my programming and Data Structures and Algorithms (DSA) skills.
+Explore Artificial Intelligence and cybersecurity.
+Build practical, user-friendly software applications.
+Gain experience through internships and collaborative projects.
+Contact
+GitHub: @gulshan25bcon
+Email: pb9266583@gmail.com
+Portfolio: portfolio-25bcon1132.vercel.app
+Thank you for visiting my portfolio! Feel free to explore my projects and follow my journey in software development.
