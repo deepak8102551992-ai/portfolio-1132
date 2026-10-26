@@ -70,7 +70,7 @@ portfolio/
 |---|---|---|
 | [C++ to Python Program Conversion]() | Programming exercises covering factorials, Fibonacci series, and structure-to-dictionary conversion. | C++, Python |
 | [Python Debugging and Testing](https://github.com/deepak8102551992-ai/Buggy_Python_Code_25BCON1132) | Debugging Python code and verifying corrected behavior with tests. | Python |
-| [Python Code Refactoring]() | Refactoring code to improve readability while preserving intended behavior. | Python, Cursor AI |
+| [Python Code Refactoring](https://github.com/deepak8102551992-ai/python-basics-25bcon1132-factorial) | Refactoring code to improve readability while preserving intended behavior. | Python, Cursor AI |
 | [Quiz App]() | Interactive quiz application. | HTML, CSS, JavaScript |
 | [Reading Book App](https://github.com/deepak8102551992-ai/ReadingBook) | Web application for recording books read and tracking reading progress. | HTML, CSS, JavaScript |
 
