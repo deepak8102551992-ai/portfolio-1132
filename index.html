@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulkit Bansal — Personal Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="hero-label">Personal Profile</p>
+    <h1>Pulkit Bansal</h1>
+    <p class="hero-lead">
+    I am a Student at JECRC University
+    </p>
+  </header>
+
+  <main>
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <div class="about-layout">
+        <!-- No profile image file found in the project; replace this path when you add one. -->
+        <img
+          class="about-photo"
+          src="images/PLACEHOLDER-profile.jpg"
+          alt="PLACEHOLDER: profile photo of Pulkit Bansal"
+          width="160"
+          height="160"
+        />
+        <div class="about-copy">
+          <p>
+            Hello! I’m a Computer Science Engineering student at JECRC University, Jaipur, Rajasthan, India. I’m passionate about technology, problem-solving, and exploring how software can turn innovative ideas into practical solutions.
+          </p>
+          <p>
+            I’m currently building my skills in programming, Data Structures and Algorithms (DSA), and software development through continuous learning and hands-on projects. I’m also interested in Artificial Intelligence, cybersecurity, and developing efficient, user-friendly applications.
+          </p>
+          <p>
+            My goal is to strengthen my technical expertise, gain practical experience through internships and collaborative projects, and become a skilled software engineer who can build impactful solutions to real-world problems. I believe in learning by doing, embracing challenges, and improving a little every day.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <p class="section-lead"></p>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>HTMl</li>
+        <li>C/C++</li>
+        <li>Node.js</li>
+        <li>CSS</li>
+      </ul>
+    </section>
+
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div class="project-search">
+        <label class="visually-hidden" for="projectSearch">Search projects</label>
+        <input
+          id="projectSearch"
+          type="search"
+          placeholder="Search projects by title, description, or technology"
+          autocomplete="off"
+          aria-controls="projects-list"
+        />
+      </div>
+      <p id="projectSearchEmpty" class="project-search-empty" hidden>
+        No projects match your search.
+      </p>
+      <ul id="projects-list" class="projects-list">
+        <li class="project-card" data-technologies="C++ Python">
+          <h3 class="project-title">
+            <a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-factorial" target="_blank" rel="noopener noreferrer">
+              C++ to Python Program Conversion
+            </a>
+          </h3>
+          <p class="project-description">
+            Three foundational programming exercises rewritten from C++ into Python, spanning factorial calculation, Fibonacci series generation, and mapping C++ structures to Python dictionaries.
+          </p>
+          <p class="project-tech">C++ · Python</p>
+          <p class="project-links">
+            Repositories:
+            <a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-factorial" target="_blank" rel="noopener noreferrer">Factorial</a>
+            <a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-fibonacci" target="_blank" rel="noopener noreferrer">Fibonacci</a>
+            <a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-struct-to--dict" target="_blank" rel="noopener noreferrer">Struct to Dictionary</a>
+          </p>
+        </li>
+        <li class="project-card" data-technologies="Python">
+          <h3 class="project-title">
+            <a href="https://github.com/pulkit25bcon/Buggy_Python_Code_25BCON1037" target="_blank" rel="noopener noreferrer">
+              Python Debugging and Testing
+            </a>
+          </h3>
+          <p class="project-description">
+            A Python assignment centered on locating and fixing bugs in existing code, paired with a test file that confirms the corrected program behaves correctly and meets its expected outcomes.
+          </p>
+          <p class="project-tech">Python</p>
+        </li>
+        <li class="project-card" data-technologies="Python">
+          <h3 class="project-title">
+            <a href="https://github.com/pulkit25bcon/messy_25BCON1037" target="_blank" rel="noopener noreferrer">
+              Python Code Refactoring with Cursor AI
+            </a>
+          </h3>
+          <p class="project-description">
+            A refactoring exercise that uses Cursor AI to clean up a messy Python program's structure and readability, without changing its original output or intended behavior.
+          </p>
+          <p class="project-tech">Python</p>
+        </li>
+        <li class="project-card" data-technologies="HTML CSS JavaScript">
+          <h3 class="project-title">
+            <a href="https://github.com/pulkit25bcon/Quiz_25BCON1037" target="_blank" rel="noopener noreferrer">
+              Quiz
+            </a>
+          </h3>
+          <p class="project-description">
+            An interactive quiz web app built with HTML, JavaScript, and CSS — HTML and JavaScript written by hand, with Cursor AI used to develop the stylesheet.
+          </p>
+          <p class="project-tech">HTML · CSS · JavaScript</p>
+        </li>
+        <li class="project-card" data-technologies="HTML CSS JavaScript">
+          <h3 class="project-title">
+            <a href="https://github.com/pulkit25bcon/ReadingBook" target="_blank" rel="noopener noreferrer">
+              Reading Book App
+            </a>
+          </h3>
+          <p class="project-description">
+            A lightweight web app for logging books you have read and saving your reading progress, built with HTML, CSS, and JavaScript.
+          </p>
+          <p class="project-tech">HTML · CSS · JavaScript</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+
+  <section id="weather">
+    <h2>Weather</h2>
+
+    <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter a city"
+    >
+
+    <button id="weatherButton">
+        Get Weather
+    </button>
+
+    <div id="weatherResult">
+        Enter a city to see the weather.
+    </div>
+</section>
+
+<section id="aiChatSection" class="ai-chat">
+  <h2>Ask My AI Assistant</h2>
+
+  <p>
+    Ask questions about this portfolio,
+    projects, and technologies.
+  </p>
+
+  <div
+    id="chatMessages"
+    aria-live="polite"
+  ></div>
+
+  <form id="chatForm" class="chat-controls">
+    <input
+      type="text"
+      id="userInput"
+      placeholder="Ask a question..."
+      autocomplete="off"
+    />
+
+    <button id="sendButton" type="submit">
+      Send
+    </button>
+  </form>
+
+  <p id="chatStatus" role="status"></p>
+
+  <p class="chat-note">
+    AI chat is available during the local
+    classroom demonstration only.
+  </p>
+</section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact</h2>
+    <p class="section-lead">
+    </p>
+    <ul class="contact-list">
+      <li>
+        <span class="contact-label">Email</span>
+        <a href="mailto:PLACEHOLDER.email@example.com">pb9266583@gmail.com</a>
+      </li>
+      <li>
+        <span class="contact-label">GitHub</span>
+        <a href="https://github.com/pulkit25bcon" target="_blank" rel="noopener noreferrer">pulkit25bcon</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    <p>Pulkit Bansal — Personal Profile</p>
+  </footer>
+  <button id="themeToggle">Switch to Dark Mode</button>
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
