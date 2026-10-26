@@ -83,8 +83,8 @@ portfolio/
 
 ## Contact
 
-- **GitHub:** [@pulkit25bcon](https://github.com/pulkit25bcon)
-- **Email:** [pb9266583@gmail.com](mailto:pb9266583@gmail.com)
+- **GitHub:** [@gulshan25bcon](https://github.com/deepak8102551992-ai)
+- **Email:** [gulshangrover0987gmail.com](mailto:gulshangrover0987@gmail.com)
 - **Portfolio:** [portfolio-25bcon1037.vercel.app](https://portfolio-25bcon1037.vercel.app/)
 
 ---
