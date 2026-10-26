@@ -2,7 +2,7 @@
 
 A personal portfolio website showcasing my background as a Computer Science Engineering student at JECRC University, Jaipur, Rajasthan, India. It highlights my technical skills, programming projects, and interest in software development.
 
-**Live Website:** [View My Portfolio](https://v0.app/gulshan19/chat/rQRYle90zcg)
+**Live Website:** [View My Portfolio](https://portfolio-azure-pi-7ao6xykxf3.vercel.app/)
 
 ## Features
 
@@ -85,7 +85,7 @@ portfolio/
 
 - **GitHub:** [@gulshan25bcon](https://github.com/deepak8102551992-ai)
 - **Email:** [gulshangrover0987gmail.com](mailto:gulshangrover0987@gmail.com)
-- **Portfolio:** [portfolio-25bcon1132.vercel.app](https://v0.app/gulshan19/chat/rQRYle90zcg)
+- **Portfolio:** [portfolio-25bcon1132.vercel.app](https://portfolio-azure-pi-7ao6xykxf3.vercel.app/)
 
 ---
 
