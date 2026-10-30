@@ -3,217 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pulkit Bansal — Personal Profile</title>
+  <meta name="description" content="Pulkit Bansal — computer science student building thoughtful software and learning in public.">
+  <title>Pulkit Bansal — Developer Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="chatbot.css">
 </head>
 <body>
   <div class="page-bg" aria-hidden="true"></div>
-
-  <header class="hero">
-    <p class="hero-label">Personal Profile</p>
-    <h1>Pulkit Bansal</h1>
-    <p class="hero-lead">
-    I am a Student at JECRC University
-    </p>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Pulkit Bansal home"><span>PB</span><b>Pulkit Bansal</b></a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-link" href="mailto:pb9266583@gmail.com">Let&apos;s talk <span>↗</span></a>
   </header>
 
-  <main>
-    <section class="about" id="about" aria-labelledby="about-heading">
-      <h2 id="about-heading">About</h2>
-      <div class="about-layout">
-        <!-- No profile image file found in the project; replace this path when you add one. -->
-        <img
-          class="about-photo"
-          src="images/PLACEHOLDER-profile.jpg"
-          alt="PLACEHOLDER: profile photo of Pulkit Bansal"
-          width="160"
-          height="160"
-        />
-        <div class="about-copy">
-          <p>
-            Hello! I’m a Computer Science Engineering student at JECRC University, Jaipur, Rajasthan, India. I’m passionate about technology, problem-solving, and exploring how software can turn innovative ideas into practical solutions.
-          </p>
-          <p>
-            I’m currently building my skills in programming, Data Structures and Algorithms (DSA), and software development through continuous learning and hands-on projects. I’m also interested in Artificial Intelligence, cybersecurity, and developing efficient, user-friendly applications.
-          </p>
-          <p>
-            My goal is to strengthen my technical expertise, gain practical experience through internships and collaborative projects, and become a skilled software engineer who can build impactful solutions to real-world problems. I believe in learning by doing, embracing challenges, and improving a little every day.
-          </p>
-        </div>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Computer science student · Jaipur, India</p>
+        <h1 id="hero-heading">I build the<br><em>things I&apos;m</em><br>curious about.</h1>
+        <p class="hero-lead">A student developer exploring software, AI, and cybersecurity through hands-on projects and a commitment to learning every day.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↓</span></a><a class="text-link" href="mailto:pb9266583@gmail.com">Get in touch <span>↗</span></a></div>
       </div>
+      <div class="hero-art" aria-label="Decorative abstract orbital graphic"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div class="orbital-core"><span>PB</span></div><span class="art-label label-top">BUILD / LEARN / REPEAT</span><span class="art-label label-bottom">25°16&apos;N · 75°47&apos;E</span></div>
     </section>
 
-    <section class="skills" id="skills" aria-labelledby="skills-heading">
-      <h2 id="skills-heading">Skills</h2>
-      <p class="section-lead"></p>
-      <ul class="skills-list">
-        <li>Python</li>
-        <li>HTMl</li>
-        <li>C/C++</li>
-        <li>Node.js</li>
-        <li>CSS</li>
-      </ul>
+    <section class="intro section-grid" id="about" aria-labelledby="about-heading">
+      <div class="section-index">01 <span>/</span> ABOUT</div>
+      <div class="intro-content"><h2 id="about-heading">Still early.<br><em>Already building.</em></h2><div class="intro-columns"><p>Hello! I&apos;m Pulkit, a Computer Science Engineering student at JECRC University. I&apos;m drawn to the space where a good idea becomes a useful, well-crafted product.</p><p>Right now I&apos;m deepening my foundations in programming, DSA, and software development while exploring artificial intelligence, cybersecurity, and web applications.</p></div></div>
     </section>
 
-    <section class="projects" id="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects</h2>
-      <div class="project-search">
-        <label class="visually-hidden" for="projectSearch">Search projects</label>
-        <input
-          id="projectSearch"
-          type="search"
-          placeholder="Search projects by title, description, or technology"
-          autocomplete="off"
-          aria-controls="projects-list"
-        />
-      </div>
-      <p id="projectSearchEmpty" class="project-search-empty" hidden>
-        No projects match your search.
-      </p>
-      <ul id="projects-list" class="projects-list">
-        <li class="project-card" data-technologies="C++ Python">
-          <h3 class="project-title">
-            <a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-factorial" target="_blank" rel="noopener noreferrer">
-              C++ to Python Program Conversion
-            </a>
-          </h3>
-          <p class="project-description">
-            Three foundational programming exercises rewritten from C++ into Python, spanning factorial calculation, Fibonacci series generation, and mapping C++ structures to Python dictionaries.
-          </p>
-          <p class="project-tech">C++ · Python</p>
-          <p class="project-links">
-            Repositories:
-            <a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-factorial" target="_blank" rel="noopener noreferrer">Factorial</a>
-            <a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-fibonacci" target="_blank" rel="noopener noreferrer">Fibonacci</a>
-            <a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-struct-to--dict" target="_blank" rel="noopener noreferrer">Struct to Dictionary</a>
-          </p>
-        </li>
-        <li class="project-card" data-technologies="Python">
-          <h3 class="project-title">
-            <a href="https://github.com/pulkit25bcon/Buggy_Python_Code_25BCON1037" target="_blank" rel="noopener noreferrer">
-              Python Debugging and Testing
-            </a>
-          </h3>
-          <p class="project-description">
-            A Python assignment centered on locating and fixing bugs in existing code, paired with a test file that confirms the corrected program behaves correctly and meets its expected outcomes.
-          </p>
-          <p class="project-tech">Python</p>
-        </li>
-        <li class="project-card" data-technologies="Python">
-          <h3 class="project-title">
-            <a href="https://github.com/pulkit25bcon/messy_25BCON1037" target="_blank" rel="noopener noreferrer">
-              Python Code Refactoring with Cursor AI
-            </a>
-          </h3>
-          <p class="project-description">
-            A refactoring exercise that uses Cursor AI to clean up a messy Python program's structure and readability, without changing its original output or intended behavior.
-          </p>
-          <p class="project-tech">Python</p>
-        </li>
-        <li class="project-card" data-technologies="HTML CSS JavaScript">
-          <h3 class="project-title">
-            <a href="https://github.com/pulkit25bcon/Quiz_25BCON1037" target="_blank" rel="noopener noreferrer">
-              Quiz
-            </a>
-          </h3>
-          <p class="project-description">
-            An interactive quiz web app built with HTML, JavaScript, and CSS — HTML and JavaScript written by hand, with Cursor AI used to develop the stylesheet.
-          </p>
-          <p class="project-tech">HTML · CSS · JavaScript</p>
-        </li>
-        <li class="project-card" data-technologies="HTML CSS JavaScript">
-          <h3 class="project-title">
-            <a href="https://github.com/pulkit25bcon/ReadingBook" target="_blank" rel="noopener noreferrer">
-              Reading Book App
-            </a>
-          </h3>
-          <p class="project-description">
-            A lightweight web app for logging books you have read and saving your reading progress, built with HTML, CSS, and JavaScript.
-          </p>
-          <p class="project-tech">HTML · CSS · JavaScript</p>
-        </li>
-      </ul>
-    </section>
+    <section class="skills section-grid" id="skills" aria-labelledby="skills-heading"><div class="section-index">02 <span>/</span> TOOLKIT</div><div class="skills-content"><h2 id="skills-heading">Tools I use to<br><em>turn ideas real.</em></h2><ul class="skills-list"><li><span>01</span>Python</li><li><span>02</span>C / C++</li><li><span>03</span>HTML &amp; CSS</li><li><span>04</span>JavaScript</li><li><span>05</span>Node.js</li><li><span>06</span>Git &amp; GitHub</li></ul></div></section>
+
+    <section class="projects section-grid" id="projects" aria-labelledby="projects-heading"><div class="section-index">03 <span>/</span> SELECTED WORK</div><div class="projects-content"><div class="section-heading-row"><h2 id="projects-heading">Things I&apos;ve<br><em>been making.</em></h2><label class="search-wrap" for="projectSearch"><span>⌕</span><input id="projectSearch" type="search" placeholder="Filter projects" autocomplete="off" aria-controls="projects-list"></label></div><p id="projectSearchEmpty" class="project-search-empty" hidden>No projects match your search.</p><ul id="projects-list" class="projects-list">
+      <li class="project-card featured" data-technologies="C++ Python"><div class="project-number">01</div><div class="project-info"><p class="project-kicker">Programming foundations</p><h3><a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-factorial" target="_blank" rel="noopener noreferrer">C++ → Python</a></h3><p>Three foundational exercises translated into Python — factorials, Fibonacci sequences, and mapping structures into dictionaries.</p><div class="project-footer"><span>Python · C++</span><a href="https://github.com/pulkit25bcon/python-basics-25bcon1037-factorial" target="_blank" rel="noopener noreferrer" aria-label="View C++ to Python project">View project ↗</a></div></div></li>
+      <li class="project-card" data-technologies="HTML CSS JavaScript"><div class="project-number">02</div><div class="project-info"><p class="project-kicker">Web application</p><h3><a href="https://github.com/pulkit25bcon/Quiz_25BCON1037" target="_blank" rel="noopener noreferrer">Quiz</a></h3><p>An interactive quiz experience built from the ground up with vanilla web technologies.</p><div class="project-footer"><span>HTML · CSS · JS</span><a href="https://github.com/pulkit25bcon/Quiz_25BCON1037" target="_blank" rel="noopener noreferrer">View project ↗</a></div></div></li>
+      <li class="project-card" data-technologies="HTML CSS JavaScript"><div class="project-number">03</div><div class="project-info"><p class="project-kicker">Productivity tool</p><h3><a href="https://github.com/pulkit25bcon/ReadingBook" target="_blank" rel="noopener noreferrer">Reading Book</a></h3><p>A lightweight app for logging books and keeping reading progress in one place.</p><div class="project-footer"><span>HTML · CSS · JS</span><a href="https://github.com/pulkit25bcon/ReadingBook" target="_blank" rel="noopener noreferrer">View project ↗</a></div></div></li>
+      <li class="project-card" data-technologies="Python"><div class="project-number">04</div><div class="project-info"><p class="project-kicker">Code quality</p><h3><a href="https://github.com/pulkit25bcon/Buggy_Python_Code_25BCON1037" target="_blank" rel="noopener noreferrer">Debug &amp; Test</a></h3><p>A focused exercise in finding bugs, improving code, and proving the result with tests.</p><div class="project-footer"><span>Python · Testing</span><a href="https://github.com/pulkit25bcon/Buggy_Python_Code_25BCON1037" target="_blank" rel="noopener noreferrer">View project ↗</a></div></div></li>
+    </ul></div></section>
+
+    <section class="ai-chat-section section-grid" aria-labelledby="chat-heading"><div class="section-index">04 <span>/</span> ASK THE AI</div><div class="ai-chat"><div><h2 id="chat-heading">Curious about<br><em>my work?</em></h2><p>Ask my portfolio assistant about my projects, skills, or background.</p></div><div id="chatMessages" aria-live="polite"><p class="chat-message chat-assistant">Hi! Ask me about Pulkit&apos;s projects, skills, or background.</p></div><form id="chatForm" class="chat-controls"><input type="text" id="userInput" placeholder="Ask a question..." autocomplete="off"><button id="sendButton" type="submit">Send ↗</button></form><p id="chatStatus" role="status"></p></div></section>
+
+    <section class="contact section-grid" id="contact" aria-labelledby="contact-heading"><div class="section-index">05 <span>/</span> CONTACT</div><div class="contact-content"><h2 id="contact-heading">Let&apos;s make<br><em>something useful.</em></h2><a class="contact-email" href="mailto:pb9266583@gmail.com">pb9266583@gmail.com <span>↗</span></a><div class="contact-meta"><a href="https://github.com/pulkit25bcon" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span>Available for learning, internships &amp; collaborations.</span></div></div></section>
   </main>
-
-
-  <section id="weather">
-    <h2>Weather</h2>
-
-    <input
-        type="text"
-        id="cityInput"
-        placeholder="Enter a city"
-    >
-
-    <button id="weatherButton">
-        Get Weather
-    </button>
-
-    <div id="weatherResult">
-        Enter a city to see the weather.
-    </div>
-</section>
-
-<section id="aiChatSection" class="ai-chat">
-  <h2>Ask My AI Assistant</h2>
-
-  <p>
-    Ask questions about this portfolio,
-    projects, and technologies.
-  </p>
-
-  <div
-    id="chatMessages"
-    aria-live="polite"
-  ></div>
-
-  <form id="chatForm" class="chat-controls">
-    <input
-      type="text"
-      id="userInput"
-      placeholder="Ask a question..."
-      autocomplete="off"
-    />
-
-    <button id="sendButton" type="submit">
-      Send
-    </button>
-  </form>
-
-  <p id="chatStatus" role="status"></p>
-
-  <p class="chat-note">
-    AI chat is available during the local
-    classroom demonstration only.
-  </p>
-</section>
-
-  <section class="contact" id="contact" aria-labelledby="contact-heading">
-    <h2 id="contact-heading">Contact</h2>
-    <p class="section-lead">
-    </p>
-    <ul class="contact-list">
-      <li>
-        <span class="contact-label">Email</span>
-        <a href="mailto:PLACEHOLDER.email@example.com">pb9266583@gmail.com</a>
-      </li>
-      <li>
-        <span class="contact-label">GitHub</span>
-        <a href="https://github.com/pulkit25bcon" target="_blank" rel="noopener noreferrer">pulkit25bcon</a>
-      </li>
-    </ul>
-  </section>
-
-  <footer class="site-footer">
-    <p>Pulkit Bansal — Personal Profile</p>
-  </footer>
-  <button id="themeToggle">Switch to Dark Mode</button>
-  <script src="script.js"></script>
-  <script src="chatbot.js"></script>
+  <footer class="site-footer"><span>© 2026 Pulkit Bansal</span><span>Built with curiosity.</span></footer>
+  <button id="themeToggle" aria-label="Switch to dark mode">Dark mode</button>
+  <script src="script.js"></script><script src="chatbot.js"></script>
 </body>
 </html>
